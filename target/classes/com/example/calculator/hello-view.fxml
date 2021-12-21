@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.HelloController">
+    <children>
+        <TextField fx:id="display" layoutX="14.0" layoutY="14.0" prefHeight="83.0" prefWidth="457.0" />
+        <Button layoutX="21.0" layoutY="117.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="7" />
+        <Button layoutX="21.0" layoutY="197.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="4" />
+        <Button layoutX="21.0" layoutY="272.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="1" />
+        <Button layoutX="21.0" layoutY="349.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="0" />
+        <Button layoutX="21.0" layoutY="425.0" mnemonicParsing="false" onAction="#triPress" prefHeight="56.0" prefWidth="90.0" text="sin" />
+        <Button layoutX="134.0" layoutY="118.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="8" />
+        <Button layoutX="134.0" layoutY="198.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="5" />
+        <Button layoutX="134.0" layoutY="273.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="2" />
+        <Button layoutX="134.0" layoutY="350.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="." />
+        <Button layoutX="134.0" layoutY="426.0" mnemonicParsing="false" onAction="#triPress" prefHeight="56.0" prefWidth="90.0" text="cos" />
+        <Button layoutX="249.0" layoutY="118.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="9" />
+        <Button layoutX="249.0" layoutY="198.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="6" />
+        <Button layoutX="249.0" layoutY="273.0" mnemonicParsing="false" onAction="#numPress" prefHeight="56.0" prefWidth="90.0" text="3" />
+        <Button layoutX="249.0" layoutY="350.0" mnemonicParsing="false" onAction="#equalsPress" prefHeight="56.0" prefWidth="90.0" text="=" />
+        <Button layoutX="249.0" layoutY="426.0" mnemonicParsing="false" onAction="#signPress" prefHeight="56.0" prefWidth="90.0" text="power" />
+        <Button layoutX="363.0" layoutY="197.0" mnemonicParsing="false" onAction="#signPress" prefHeight="56.0" prefWidth="90.0" text="/" />
+        <Button layoutX="363.0" layoutY="277.0" mnemonicParsing="false" onAction="#signPress" prefHeight="56.0" prefWidth="90.0" text="x" />
+        <Button layoutX="363.0" layoutY="352.0" mnemonicParsing="false" onAction="#signPress" prefHeight="56.0" prefWidth="90.0" text="-" />
+        <Button layoutX="363.0" layoutY="429.0" mnemonicParsing="false" onAction="#signPress" prefHeight="56.0" prefWidth="90.0" text="+" />
+        <Button layoutX="363.0" layoutY="118.0" mnemonicParsing="false" onAction="#ACPress" prefHeight="56.0" prefWidth="90.0" text="AC" />
+    </children>
+</AnchorPane>
